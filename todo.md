@@ -15,7 +15,7 @@
   3. When user clicks on specific data, it's depth information should be displayed in UI
   4. Make a dynamic flow of datas like name, pics, details for particular selected data w.r.t query and title name.
   5. Bookmark particular data
-  6. UnBookmark Particular Data
+  6. UnBookmark particular Data
 
 - All Data Collection
 
