@@ -1,10 +1,10 @@
 # TODO
 
-- For now collect two set of datas: temples and peaks and work on it and convert to json structure [**CURRENTLY DOING**]
+- For now collect two set of datas: temples and peaks and work on it and convert to json structure [**DONE**]
+
+- Resizes Images(Quality images with compressed ones) [**CURRENTLY DOING**]
 
 - Develop UI- with HTML, CSS and Bootstrap
-
-- Resizes Images(Quality images with compressed ones)
 
 - First fill hardcode data UI in data
 
