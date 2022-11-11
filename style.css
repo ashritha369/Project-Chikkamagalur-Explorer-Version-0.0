@@ -1,0 +1,69 @@
+#main-container-div {
+  background-color: rgb(213, 133, 30);
+}
+#header-tag {
+  background-color: aqua;
+}
+#main-tag {
+  background-color: blue;
+}
+#footer-tag {
+  background-color: yellowgreen;
+}
+.heading {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+/* ------ */
+/* HEADER*/
+#header-tag {
+  text-align: center;
+}
+/* ABOUT */
+#about-div {
+  background-color: green;
+  color: white;
+}
+
+#search-and-bookmark-main-div {
+  text-align: center;
+  background-color: rgb(246, 1, 83);
+}
+
+#list-of-details-div {
+  background-color: pink;
+}
+
+#specific-detail-div {
+  background-color: darkcyan;
+}
+#intro-and-image-carousel-div {
+  background-color: rgb(195, 116, 26);
+}
+#about-div {
+  background-color: blue;
+}
+#details-main-div {
+  background-color: chartreuse;
+  text-align: center;
+}
+#specific-query-heading-and-button-div {
+  display: flex;
+  justify-content: space-between;
+}
+#about-specific-query-div {
+  background-color: aliceblue;
+}
+#how-to-reach-div {
+  background-color: brown;
+}
+#blog-div {
+  background-color: rgb(71, 114, 152);
+}
+.description {
+  background-color: bisque;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
