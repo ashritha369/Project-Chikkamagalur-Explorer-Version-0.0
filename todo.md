@@ -4,9 +4,11 @@
 
 - Resizes Images(Quality images with compressed ones) [**CURRENTLY DOING**]
 
-- Develop UI- with HTML, CSS and Bootstrap [**CURRENTLY DOING**]
+- Develop UI- with HTML, CSS and Bootstrap [**DONE**]
 
-- First fill hardcode data UI in data[**CURRENTLY DOING**]
+- First fill hardcode data UI in data[**DONE**]
+
+- Convert todo.md data to json.data [**CURRENTLY DOING**]
 
 - **Develop js features** :
 
@@ -20,3 +22,7 @@
 - All Data Collection
 
 - Convert all content.md to json.js
+
+# Fix Below Issues
+
+1. Fix 'View Bookmark Button' at screen size 734px
