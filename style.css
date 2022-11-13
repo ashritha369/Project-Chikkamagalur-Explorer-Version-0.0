@@ -1,4 +1,4 @@
-#main-container-div {
+/* #main-container-div {
   background-color: rgb(213, 133, 30);
 }
 #header-tag {
@@ -6,46 +6,45 @@
 }
 #main-tag {
   background-color: blue;
-}
-#footer-tag {
-  background-color: yellowgreen;
-}
-.heading {
-  text-align: center;
-  background-color: black;
-  color: white;
-}
+} */
+
 /* ------ */
 /* HEADER*/
 #header-tag {
   text-align: center;
 }
+.heading {
+  text-align: center;
+  background-color: navy;
+  color: white;
+  border-radius: 5px;
+}
 /* ABOUT */
 #about-div {
-  background-color: green;
-  color: white;
+  /* background-color: green; */
+  color: black;
 }
 
 #search-and-bookmark-main-div {
   text-align: center;
-  background-color: rgb(246, 1, 83);
+  /* background-color: rgb(246, 1, 83); */
 }
 
 #list-of-details-div {
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 #specific-detail-div {
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
 }
 #intro-and-image-carousel-div {
-  background-color: rgb(195, 116, 26);
+  /* background-color: rgb(195, 116, 26); */
 }
 #about-div {
-  background-color: blue;
+  /* background-color: blue; */
 }
 #details-main-div {
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
   text-align: center;
 }
 #specific-query-heading-and-button-div {
@@ -53,17 +52,113 @@
   justify-content: space-between;
 }
 #about-specific-query-div {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 #how-to-reach-div {
-  background-color: brown;
+  /* background-color: brown; */
 }
 #blog-div {
-  background-color: rgb(71, 114, 152);
+  /* background-color: rgb(71, 114, 152); */
 }
 .description {
-  background-color: bisque;
-  border: 2px solid black;
+  background-color: white;
+  border: 2px solid green;
   border-radius: 5px;
   margin-bottom: 1rem;
+}
+
+/* -----------MAIN STYLING
+----------------------- */
+
+/* HEADER */
+
+#logo-div,
+#about-button-div,
+#click-here-to-search-div {
+  margin: auto;
+}
+#button-nav-search {
+  background-color: green;
+  color: white;
+}
+
+#button-nav-search:hover {
+  background-color: navy;
+  color: white;
+}
+#button-nav-about {
+  background-color: green;
+  color: white;
+}
+
+#button-nav-about:hover {
+  background-color: navy;
+  color: white;
+}
+/* ABOUT SECTION */
+#heading-about {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#heading-details {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* DETAILS SECTION */
+/* search-input-and-button-div */
+#inputText {
+  text-align: center;
+}
+#main-specific-query-title-div {
+  margin-top: 1rem;
+  text-align: center;
+}
+.btn-dark {
+  color: #fff;
+  background-color: navy !important;
+}
+
+#details-heading {
+  color: navy;
+}
+div#carousel-div {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  color: white;
+  background-color: white;
+  border: 2px solid navy !important;
+  border-radius: 0.25rem;
+}
+#footer-tag {
+  background-color: navy;
+  color: #fff;
+}
+
+main#main-tag {
+  background-color: #d5ffd5;
+}
+#sub-query-picture-and-title-and-place {
+  display: flex;
+  background-color: white;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#sub-query-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid navy;
+}
+.title-and-place-div {
+  text-align: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.sub-query-picture-div {
+  margin-left: 5px;
+  margin-top: 5px;
 }

@@ -18,15 +18,30 @@
     <div id="main-container-div" class="container-fluid">
       <header id="header-tag">
         <div id="header-main-div" class="row">
-          <div id="logo-div" class="col-lg-4 col-md-4 col-sm-12">logo</div>
-          <div id="about-button-div" class="col-lg-4 col-md-4 col-sm-12">
-            about
+          <div id="logo-div" class="col-lg-4 col-md-4 col-sm-12 mt-2">
+            <img
+              src="./Images/Ckm-xplorer-logo-removebg-preview.png"
+              class="img-fluid"
+              alt="Ckm-Explorer-logo"
+            />
+          </div>
+          <div id="about-button-div" class="col-lg-4 col-md-4 col-sm-12 mt-2">
+            <a href="#about-div"
+              ><button type="button" class="btn btn-sm" id="button-nav-about">
+                <span><h4>ABOUT</h4></span>
+              </button></a
+            >
           </div>
           <div
             id="click-here-to-search-div"
-            class="col-lg-4 col-md-4 col-sm-12"
+            class="col-lg-4 col-md-4 col-sm-12 mt-2 mb-2"
           >
-            search
+            <a href="#details-main-div"
+              ><button type="button" class="btn btn-sm" id="button-nav-search">
+                <span
+                  ><h4>Search <ion-icon name="search-outline"></ion-icon></h4
+                ></span></button
+            ></a>
           </div>
         </div>
       </header>
@@ -117,7 +132,7 @@
           </div>
 
           <div id="about-div" class="row">
-            <h1 class="heading">ABOUT</h1>
+            <h1 class="heading" id="heading-about">ABOUT</h1>
             <p>
               Chikmagalur is a hill station in Karnataka, a state in southwest
               India. To the north is Baba Budangiri, a mountain range in the
@@ -130,16 +145,33 @@
           </div>
 
           <div id="details-main-div" class="row">
-            <h1 class="heading">DETAILS</h1>
+            <h1 class="heading" id="heading-details">DETAILS</h1>
             <!-- PART-1: SEARCH OPTION -->
             <div id="search-and-bookmark-main-div">
               <div class="row">
-                <div id="search-input-and-button-div" class="col-lg-8 col-sm-9">
-                  <input />
-                  <button>search</button>
+                <div
+                  id="search-input-and-button-div"
+                  class="col-lg-8 col-sm-9 mb-2 mt-2"
+                >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputText"
+                    placeholder="Search Here"
+                  />
                 </div>
-                <div id="bookmark-button-div" class="col-lg-4 col-sm-3">
-                  <button>view bookmark</button>
+                <div id="search-button-div" class="col-lg-2 col-sm-1 mb-2 mt-2">
+                  <button type="button" class="btn btn-dark btn-large">
+                    <b>Search</b>
+                  </button>
+                </div>
+                <div
+                  id="bookmark-button-div"
+                  class="col-lg-2 col-sm-2 mb-2 mt-2"
+                >
+                  <button type="button" class="btn btn-dark">
+                    <b>View Bookmarks</b>
+                  </button>
                 </div>
               </div>
             </div>
@@ -147,14 +179,42 @@
             <!-- PART-2: DETAILS -->
             <div id="details-main-div">
               <div class="row">
-                <div id="list-of-details-div" class="col-lg-4">
-                  <div><h3 class="heading">list of items</h3></div>
+                <div id="list-of-details-div" class="col-lg-4 mt-3 mb-2">
+                  <div><h3 class="heading">Select from Below</h3></div>
+                  <div id="sub-query-picture-and-title-and-place">
+                    <div class="sub-query-picture-div">
+                      <img
+                        src="./Images/peaks/peak-1/pic-2.png"
+                        id="sub-query-img"
+                      />
+                    </div>
+                    <div class="title-and-place-div">
+                      <h5>Title</h5>
+                      <h6>Mudigere</h6>
+                    </div>
+                  </div>
+                  <div id="sub-query-picture-and-title-and-place">
+                    <div class="sub-query-picture-div">
+                      <img
+                        src="./Images/peaks/peak-1/pic-2.png"
+                        id="sub-query-img"
+                      />
+                    </div>
+                    <div class="title-and-place-div">
+                      <h5>Title</h5>
+                      <h6>Mudigere</h6>
+                    </div>
+                  </div>
                 </div>
                 <div id="specific-detail-div" class="col-lg-8">
                   <!-- heading-of specific query with bookmark button -->
                   <div id="specific-query-heading-and-button-div">
-                    <div><h3 class="heading">SHRI KALABHAIRVA TEMPLE</h3></div>
-                    <button>bookmark icon</button>
+                    <div id="main-specific-query-title-div">
+                      <h3 class="heading">SHRI KALABHAIRVA TEMPLE</h3>
+                    </div>
+                    <button type="button" class="btn btn-dark mt-2 mb-2">
+                      <ion-icon name="bookmark"></ion-icon>
+                    </button>
                   </div>
 
                   <!-- carousel of images -->
@@ -244,21 +304,21 @@
                       id="about-specific-query-div"
                       class="col-lg-4 col-sm-12"
                     >
-                      <h4>About</h4>
+                      <h4 id="details-heading">About</h4>
                       <div class="description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Veniam vero perferendi
                       </div>
                     </div>
                     <div id="how-to-reach-div" class="col-lg-4 col-sm-12">
-                      <h4>How to reach</h4>
+                      <h4 id="details-heading">How to reach</h4>
                       <div class="description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Veniam vero perferendi
                       </div>
                     </div>
                     <div id="blog-div" class="col-lg-4 col-sm-12">
-                      <h4>Blog</h4>
+                      <h4 id="details-heading">Blog</h4>
                       <div class="description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Veniam vero perferendi
@@ -285,5 +345,15 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <!-- IONICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    Basic usage
   </body>
 </html>

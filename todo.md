@@ -4,9 +4,9 @@
 
 - Resizes Images(Quality images with compressed ones) [**CURRENTLY DOING**]
 
-- Develop UI- with HTML, CSS and Bootstrap
+- Develop UI- with HTML, CSS and Bootstrap [**CURRENTLY DOING**]
 
-- First fill hardcode data UI in data
+- First fill hardcode data UI in data[**CURRENTLY DOING**]
 
 - **Develop js features** :
 
