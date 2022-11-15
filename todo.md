@@ -8,21 +8,22 @@
 
 - First fill hardcode data UI in data[**DONE**]
 
-- Convert todo.md data to json.data [**CURRENTLY DOING**]
-
 - **Develop js features** :
 
-  1. search query among json data
-  2. display the searched one's list
-  3. When user clicks on specific data, it's depth information should be displayed in UI
-  4. Make a dynamic flow of datas like name, pics, details for particular selected data w.r.t query and title name.
-  5. Bookmark particular data
-  6. UnBookmark particular Data
+  1. Convert todo.md data to json.data [**CURRENTLY DOING**]
+  2. search query among json data
+  3. display the searched one's list
+  4. When user clicks on specific data, it's depth information should be displayed in UI
+  5. Make a dynamic flow of datas like name, pics, details for particular selected data w.r.t query and title name.
+  6. Bookmark particular data
+  7. UnBookmark particular Data
 
 - All Data Collection
 
-- Convert all content.md to json.js
+---
 
-# Fix Below Issues
+# 1. Convert todo.md data to json.data and work on accessing all individual data in renderData.js
 
-1. Fix 'View Bookmark Button' at screen size 734px
+- converted to objects with key value pair .
+- Export and Import JS Files using Import/Export ES6 Modules
+- Access one js file data in another js file with proper js file modules.

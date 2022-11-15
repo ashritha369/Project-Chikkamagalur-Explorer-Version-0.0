@@ -30,19 +30,19 @@
   /* background-color: rgb(246, 1, 83); */
 }
 
-#list-of-details-div {
-  /* background-color: pink; */
-}
+/* #list-of-details-div {
+  background-color: pink;
+} */
 
-#specific-detail-div {
-  /* background-color: darkcyan; */
-}
-#intro-and-image-carousel-div {
-  /* background-color: rgb(195, 116, 26); */
-}
-#about-div {
-  /* background-color: blue; */
-}
+/* #specific-detail-div {
+  background-color: darkcyan;
+} */
+/* #intro-and-image-carousel-div {
+  background-color: rgb(195, 116, 26);
+} */
+/* #about-div {
+  background-color: blue;
+} */
 #details-main-div {
   /* background-color: chartreuse; */
   text-align: center;
@@ -51,15 +51,15 @@
   display: flex;
   justify-content: space-between;
 }
-#about-specific-query-div {
-  /* background-color: aliceblue; */
+/* #about-specific-query-div {
+  background-color: aliceblue;
 }
 #how-to-reach-div {
-  /* background-color: brown; */
+  background-color: brown;
 }
 #blog-div {
-  /* background-color: rgb(71, 114, 152); */
-}
+  background-color: rgb(71, 114, 152);
+} */
 .description {
   background-color: white;
   border: 2px solid green;
