@@ -14,9 +14,13 @@
 
 1. work on converting todo.md data to json.data or objects[**DONE**]-**1 day**
 
+- Reference [https://bobbyhadz.com/blog/javascript-import-json-file](https://bobbyhadz.com/blog/javascript-import-json-file)
+
 2. Work on logic-flow-1 of data from searching data query TO displaying the list(roughly on paper)[**DONE**]-**1 day**
 
 3. Work on logic-flow-2 of data from click on particular list item TO displaying the detail of it(roughly on paper)-**1 day**
+
+- Reference [https://www.folkstalk.com/2022/09/get-json-by-id-with-code-examples.html](https://www.folkstalk.com/2022/09/get-json-by-id-with-code-examples.html)
 
 4. Decide what js files should be created and organise the logic flow with respect to different js files- ! KEEP IT ORGANISED AND IN NEAT WAY - **2 day**
 

@@ -8,6 +8,9 @@
   background-color: blue;
 } */
 
+body {
+  background-color: black !important;
+}
 /* ------ */
 /* HEADER*/
 #header-tag {
@@ -17,7 +20,6 @@
   text-align: center;
   background-color: navy;
   color: white;
-  border-radius: 5px;
 }
 /* ABOUT */
 #about-div {
@@ -63,7 +65,7 @@
 .description {
   background-color: white;
   border: 2px solid green;
-  border-radius: 5px;
+
   margin-bottom: 1rem;
 }
 
@@ -137,7 +139,7 @@ div#carousel-div {
 }
 
 main#main-tag {
-  background-color: #d5ffd5;
+  background-color: white;
 }
 #sub-query-picture-and-title-and-place {
   display: flex;
@@ -161,4 +163,16 @@ main#main-tag {
 .sub-query-picture-div {
   margin-left: 5px;
   margin-top: 5px;
+}
+div#bookmark-icon-button-div,
+div#main-specific-query-title-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 540px) {
+  #specific-query-heading-and-button-div {
+    display: block;
+  }
 }

@@ -15,7 +15,7 @@
     />
     <!-- SCRIPT RENDER- JS-DATA FILE -->
     <script type="module" src="./JavaScript/renderAllData.js"></script>
-    <script type="image/png" src="./JavaScript/renderAllData.js"></script>
+    <!-- <script type="image/png" src="./JavaScript/renderAllData.js"></script> -->
   </head>
   <body>
     <div id="main-container-div" class="container-fluid">
@@ -52,7 +52,9 @@
       <main id="main-tag">
         <div id="main-container-div">
           <div id="intro-and-image-carousel-div" class="row">
-            <h1 class="heading">Chikkamagaluru, The Land of coffee</h1>
+            <div>
+              <h1 class="heading">Chikkamagaluru, The Land of coffee</h1>
+            </div>
 
             <div id="carousel-div">
               <!-- Intro Carousel of Images from bootstrap -->
@@ -135,7 +137,7 @@
           </div>
 
           <div id="about-div" class="row">
-            <h1 class="heading" id="heading-about">ABOUT</h1>
+            <div><h1 class="heading" id="heading-about">ABOUT</h1></div>
             <p>
               Chikmagalur is a hill station in Karnataka, a state in southwest
               India. To the north is Baba Budangiri, a mountain range in the
@@ -148,7 +150,7 @@
           </div>
 
           <div id="details-main-div" class="row">
-            <h1 class="heading" id="heading-details">DETAILS</h1>
+            <div><h1 class="heading" id="heading-details">DETAILS</h1></div>
             <!-- PART-1: SEARCH OPTION -->
             <div id="search-and-bookmark-main-div">
               <div class="row">
@@ -215,9 +217,11 @@
                     <div id="main-specific-query-title-div">
                       <h3 class="heading">SHRI KALABHAIRVA TEMPLE</h3>
                     </div>
-                    <button type="button" class="btn btn-dark mt-2 mb-2">
-                      <ion-icon name="bookmark"></ion-icon>
-                    </button>
+                    <div id="bookmark-icon-button-div">
+                      <button type="button" class="btn btn-dark mt-2 mb-2">
+                        <ion-icon name="bookmark"></ion-icon>
+                      </button>
+                    </div>
                   </div>
 
                   <!-- carousel of images -->
@@ -308,7 +312,9 @@
                       id="about-specific-query-div"
                       class="col-lg-4 col-sm-12"
                     >
-                      <h4 id="details-heading">About</h4>
+                      <div>
+                        <h4 id="details-heading">About</h4>
+                      </div>
                       <div class="description">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
                         elit. Veniam vero perferendi
